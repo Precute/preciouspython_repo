@@ -1,4 +1,5 @@
 counts = dict()
+# solution 1
 # print("Enter a line of text")
 # line = input('')
 # words = line.split()
@@ -9,6 +10,7 @@ counts = dict()
 #     counts[word] = counts.get(word, 0) + 1
 # print("Counts:", counts)
 
+# Solution 2
 print("enter file name")
 filename = open(input(''))
 for line in filename:
